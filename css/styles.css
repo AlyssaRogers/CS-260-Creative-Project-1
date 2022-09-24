@@ -16,11 +16,12 @@ body > * {
 
 .page-welcome {
   padding: 10px 30px;
-  border-bottom: 3px solid #81491;
+  border-bottom: 3px solid #819491;
   color: 696970;
 }
 h1 {
   text-align: center;
+  padding-bottom: 15px;
 }
 nav.navbar {
   margin: 20px 0 60px 0;
