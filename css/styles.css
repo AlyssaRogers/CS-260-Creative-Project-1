@@ -8,7 +8,7 @@ body > * {
   flex-shrink: 0;
 }
 
-.welcome-text {
+.page-welcome {
   padding: 10px 30px;
 }
 h1 {

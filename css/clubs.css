@@ -1,0 +1,20 @@
+.club-categories {
+  list-style: none;
+  padding-left: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.club-category {
+  display:flex;
+  flex-direction: row;
+  margin: 20px 0;
+}
+
+.category-desc {
+  padding-left: 20px;
+}
+
+.club-list {
+  list-style-type: disc;
+}

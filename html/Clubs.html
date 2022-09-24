@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/clubs.css" />
 </head>
 
 <body>
@@ -37,37 +38,44 @@
     </nav>
 
 
-    <h1>Overview: Why get involved?</h1>
-    <p>Who are we? Why are we here? To make connections! It's called adaptation folks. Get involved in one of these
-        three catagories!</p>
+    <div class="page-welcome">
+        <h1>Overview: Why get involved?</h1>
+        <p>Who are we? Why are we here? To make connections! It's called adaptation folks. Get involved in one of these
+            two categories!</p>
+    </div>
 
     <hr />
-    <div>
-        <img src='../img/MountainYoga.jpg' />
 
-    </div>
-    <div>
-        <h2>Service</h2>
-        <ul>
-            <li>Global Hands</li>
-            <li>Local Hearts</li>
-            <li>Something in between</li>
+    <div class="main-content">
+        <ul class="club-categories">
+            <li class="club-category">
+                <img class="category-photo" src="../img/MountainYoga.jpg" />
+                <div class="category-desc">
+                    <h2>Service</h2>
+                    <ul class="club-list">
+                        <li>Global Hands</li>
+                        <li>Local Hearts</li>
+                        <li>Something in between</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="club-category">
+                <img class="category-photo" src="../img/AthleticClubs.jpg" />
+                <div class="category-desc">
+                    <h2>Athletics</h2>
+                    <ul class="club-list">
+                        <li>Fire-fighting team</li>
+                        <li>Cardio Club</li>
+                    </ul>
+                </div>
+            </li>
         </ul>
+        <div class="footer">
+            <p>Zach Hacking, Alyssa Rogers</p>
 
+        </div>
     </div>
-    <div>
-        <img src='../img/AthleticClubs.jpg' />
-    </div>
-    <div>
-        <h2>Athletics</h2>
-        <ul>
-            <li>Fire-fighting team</li>
-            <li>Cardio Club</li>
-        </ul>
-    </div>
-    <div>
-        <p>Zach Hacking, Alyssa Rogers</p>
-    </div>
+
 </body>
 
 </html>

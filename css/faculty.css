@@ -1,0 +1,11 @@
+.teacher-columns {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 30px;
+}
+
+.teacher-list {
+  list-style: none;
+  text-align: center;
+  padding-left: 0px;
+}
