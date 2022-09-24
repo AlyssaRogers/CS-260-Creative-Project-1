@@ -2,6 +2,12 @@ html, body {
   height: 98%;
   display:flex;
   flex-direction: column;
+  color: 696970;
+}
+
+hr {
+  margin: 0;
+  border-top: 3px solid #819491;
 }
 
 body > * {
@@ -10,13 +16,15 @@ body > * {
 
 .page-welcome {
   padding: 10px 30px;
+  border-bottom: 3px solid #81491;
+  color: 696970;
 }
 h1 {
   text-align: center;
 }
 nav.navbar {
   margin: 20px 0 60px 0;
-  border-bottom: 3px solid #d3302c;
+  border-bottom: 3px solid #819491;
 }
 
 div.navbar {
@@ -36,7 +44,8 @@ div.navbar {
 
 .nav-link {
   text-align: center;
-  background-color: #eaddc4;
+  background-color: #ccc29f;
+  color: #696870;
 
 }
 
@@ -57,6 +66,7 @@ div.navbar {
 .links {
   display: flex;
   justify-content: space-around;
+  margin-top: 20px;
 }
 .button:link,
 .button:visited {
@@ -67,10 +77,12 @@ div.navbar {
   margin: 20px 0 20px 0;
   padding: 20px 0 20px 0;
   text-align: center;
+  background-color: #ccc29f;
+  color: #819491;
 }
 
 .footer {
-
+  margin-top: 20px;
 }
 
 @media (min-width: 992px) {
@@ -79,7 +91,7 @@ div.navbar {
     height: 50px;
     size: 500px;
     margin: 0 auto;
-    background-color: #d3302c;
+    background-color: #c4b69b;
 
   }
 }
