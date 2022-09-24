@@ -1,7 +1,7 @@
 .teacher-columns {
   display: flex;
   justify-content: space-around;
-  padding: 0 30px;
+  padding: 0 100px;
 }
 
 .teacher-list {
