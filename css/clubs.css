@@ -1,13 +1,14 @@
 .club-categories {
   list-style: none;
   padding-left: none;
+  padding-right: 30px;
   display: flex;
   flex-direction: column;
 }
 
 .club-category {
   display:flex;
-  flex-direction: row;
+  flex-direction: column;
   margin: 20px 0;
 }
 
@@ -17,4 +18,10 @@
 
 .club-list {
   list-style-type: disc;
+}
+
+@media only screen and (min-width: 700px) {
+  .club-category {
+    flex-direction: row;
+  }
 }

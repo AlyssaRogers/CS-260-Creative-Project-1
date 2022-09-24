@@ -1,10 +1,23 @@
 .mission-statement-container {
   display: flex;
   justify-content: space-between;
-  width: 1000px;
-  flex-direction: row;
+  flex-direction: column;
+  padding: 0px 30px;
   margin: 0px auto;
 }
 
 .mission-statement {
+  padding-right: 30px;
+  color: #696970;
+}
+
+.school-photo {
+  width: 400px;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 800px) {
+  .mission-statement-container {
+    flex-direction: row;
+  }
 }

@@ -1,8 +1,9 @@
-html, body {
+html,
+body {
   height: 98%;
-  display:flex;
+  display: flex;
   flex-direction: column;
-  color: 696970;
+  color: #696970;
 }
 
 hr {
@@ -10,19 +11,21 @@ hr {
   border-top: 3px solid #819491;
 }
 
-body > * {
+body>* {
   flex-shrink: 0;
 }
 
 .page-welcome {
   padding: 10px 30px;
   border-bottom: 3px solid #819491;
-  color: 696970;
+  color: #696970;
 }
+
 h1 {
   text-align: center;
   padding-bottom: 15px;
 }
+
 nav.navbar {
   margin: 20px 0 60px 0;
   border-bottom: 3px solid #819491;
@@ -34,7 +37,6 @@ div.navbar {
 }
 
 .navbar-nav {
-  width: 600px;
   justify-content: space-around;
   flex: 1;
 }
@@ -46,13 +48,9 @@ div.navbar {
 .nav-link {
   text-align: center;
   background-color: #ccc29f;
-  color: #696870;
-
+  color: #475150;
 }
 
-.carousel {
-  width: 400px;
-}
 .footer {
   margin: 20px auto 0 auto;
 }
@@ -62,31 +60,44 @@ div.navbar {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  flex-grow:1;
+  flex-grow: 1;
 }
+
 .links {
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   margin-top: 20px;
 }
+
 .button:link,
 .button:visited {
   font-weight: bold;
   border: 2px solid #5d6063;
   border-radius: 5px;
   width: 200px;
-  margin: 20px 0 20px 0;
+  margin: 20px auto;
   padding: 20px 0 20px 0;
   text-align: center;
   background-color: #ccc29f;
-  color: #819491;
+  color: #475150;
 }
 
 .footer {
   margin-top: 20px;
 }
 
-@media (min-width: 992px) {
+@media only screen and (min-width: 600px) {
+  .links {
+    flex-direction: row;
+  }
+  .button:link,
+  .button:visited {
+    margin: 20px 0;
+  }
+}
+
+@media only screen and (min-width: 992px) {
   .vertical-hr {
     width: 2px;
     height: 50px;

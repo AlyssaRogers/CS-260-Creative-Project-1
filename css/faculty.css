@@ -1,11 +1,22 @@
 .teacher-columns {
   display: flex;
   justify-content: space-around;
+  flex-direction: column;
   padding: 0 100px;
+  text-align: center;
 }
 
 .teacher-list {
   list-style: none;
-  text-align: center;
   padding-left: 0px;
+}
+
+.subject-teacher {
+  margin: 0 10px;
+}
+
+@media only screen and (min-width: 800px) {
+  .teacher-columns {
+    flex-direction: row;
+  }
 }
